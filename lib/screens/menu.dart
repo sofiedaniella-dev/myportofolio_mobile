@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:myportofolio_mobile/widgets/left_drawer.dart';
 import 'package:myportofolio_mobile/widgets/project_card.dart';
 
-
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
 
@@ -11,8 +10,9 @@ class MyHomePage extends StatelessWidget {
   final String kelas = "PBP E";
 
   final List<ItemHomepage> items = [
-    ItemHomepage("Lihat Proyek", Icons.folder, Colors.blue),
-    ItemHomepage("Tambah Proyek", Icons.add_circle, Colors.green),
+    ItemHomepage("View Projects", Icons.folder, Colors.blue),
+    ItemHomepage("Add Projects", Icons.add_circle, Colors.green),
+    ItemHomepage("Add Experience", Icons.work_outline, Colors.orange),
     ItemHomepage("Logout", Icons.logout, Colors.red),
   ];
 
