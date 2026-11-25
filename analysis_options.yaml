@@ -7,9 +7,12 @@
 
 # The following line activates a set of recommended lints for Flutter apps,
 # packages, and plugins designed to encourage good coding practices.
-include: package:flutter_lints/flutter.yaml
+include: package:very_good_analysis/analysis_options.yaml
 
 analyzer:
+  errors:
+    deprecated_member_use: ignore
+    deprecated_member_use_from_same_package: ignore
   exclude:
     - build/**
     - android/**
@@ -19,6 +22,7 @@ analyzer:
     - macos/**
     - linux/**
     - "**/*.g.dart"
+  
 
 linter:
   # The lint rules applied to this project can be customized in the
