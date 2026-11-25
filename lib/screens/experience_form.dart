@@ -144,9 +144,7 @@ class _ExperienceFormPageState extends State<ExperienceFormPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(
-          child: Text('Add Experience Form'),
-        ),
+        title: const Center(child: Text('Add Experience Form')),
         backgroundColor: Theme.of(context).colorScheme.primary,
         foregroundColor: Colors.white,
       ),
@@ -318,8 +316,7 @@ class _ExperienceFormPageState extends State<ExperienceFormPage> {
                   controller: _endDateController,
                   readOnly: true,
                   decoration: InputDecoration(
-                    hintText:
-                        "Pilih Tanggal Selesai (Kosongkan jika masih berlangsung)",
+                    hintText: "Pilih Tanggal Selesai (Kosongkan jika masih berlangsung)",
                     labelText: "Tanggal Selesai (Opsional)",
                     suffixIcon: Row(
                       mainAxisSize: MainAxisSize.min,
